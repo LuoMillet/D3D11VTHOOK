@@ -8,7 +8,7 @@ D3D11VTHOOK 是一个基于 DirectX 11 的虚拟表钩子绘制库，通过钩�
 
 D3D11VTHOOK is a virtual table hook library based on DirectX 11 for rendering purposes. It implements rendering functionality in target processes through hook technology. This library is specifically designed to avoid thread detection issues commonly found in traditional hook rendering methods, providing a more stealthy and secure rendering solution.
 
-![D3D11 Rendering Demo](https://p26-doubao-search-sign.byteimg.com/labis/92e712685986832974dcd80f31707f08~tplv-be4g95zd3a-image.jpeg?rk3s=542c0f93&x-expires=1766023980&x-signature=jKDQF2qpn3KVNB85Mo2vRaWmmfw%3D)
+![D3D11 Rendering Demo]([https://p26-doubao-search-sign.byteimg.com/labis/92e712685986832974dcd80f31707f08~tplv-be4g95zd3a-image.jpeg?rk3s=542c0f93&x-expires=1766023980&x-signature=jKDQF2qpn3KVNB85Mo2vRaWmmfw%3D](https://youke1.picui.cn/s1/2025/10/19/68f4496e6b4aa.png))
 
 ## 核心功能 | Core Features
 
