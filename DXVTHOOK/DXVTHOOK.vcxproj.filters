@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ImGui">
+      <UniqueIdentifier>{6593a498-30f5-4b70-8a4f-5c5cc832a8e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceCode">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="headerfile">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="MainCpp">
+      <UniqueIdentifier>{2ea1ee1a-6545-4055-a26c-cfa89c0d8abc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dx11Hook">
+      <UniqueIdentifier>{6c29cf75-35cd-4483-b876-9a9872338372}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>SourceCode</Filter>
+    </ClCompile>
+    <ClCompile Include="Dx11Lib\imgui\Font.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Dx11Lib\imgui\imgui.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Dx11Lib\imgui\imgui_demo.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Dx11Lib\imgui\imgui_draw.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Dx11Lib\imgui\imgui_impl_dx11.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Dx11Lib\imgui\imgui_impl_win32.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Dx11Lib\imgui\imgui_tables.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Dx11Lib\imgui\imgui_widgets.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Dx11Lib\imgui\implot.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Dx11Lib\imgui\implot_demo.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Dx11Lib\imgui\implot_items.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Dx11Lib\d3d11Hook.cpp">
+      <Filter>Dx11Hook</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>MainCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Canvs.cpp">
+      <Filter>MainCpp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Dx11Lib\imgui\Font.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Dx11Lib\imgui\imconfig.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Dx11Lib\imgui\imgui.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Dx11Lib\imgui\imgui_impl_dx11.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Dx11Lib\imgui\imgui_impl_win32.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Dx11Lib\imgui\imgui_internal.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Dx11Lib\imgui\implot.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Dx11Lib\imgui\implot_internal.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Dx11Lib\imgui\imstb_rectpack.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Dx11Lib\imgui\imstb_textedit.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Dx11Lib\imgui\imstb_truetype.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="con_log.hpp">
+      <Filter>headerfile</Filter>
+    </ClInclude>
+    <ClInclude Include="PtrMemory.h">
+      <Filter>headerfile</Filter>
+    </ClInclude>
+    <ClInclude Include="basic.h">
+      <Filter>headerfile</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>headerfile</Filter>
+    </ClInclude>
+    <ClInclude Include="struct.h">
+      <Filter>headerfile</Filter>
+    </ClInclude>
+    <ClInclude Include="Dx11Lib\d3d11Hook.h">
+      <Filter>Dx11Hook</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
